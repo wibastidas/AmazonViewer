@@ -23,7 +23,7 @@ public class Main {
 		//Ejemplo Film es construido como una movie
 		//Film film = new Movie ("", "", "" , 1, (short)1999);
 		//film.view();
-		
+		//test
 		
 		showMenu();
 
