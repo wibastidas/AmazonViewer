@@ -3,6 +3,15 @@ package com.williambastidas.amazonviewer.model;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * <h1> Magazine</h1>
+ * <p> Permite crear revistas pero no permite visualizarlas.Se maneja como una especie de catalogo
+ * Hereda de {@link Publication}
+ * 
+ * @author williambastidas
+ * 
+ * 
+ * */
 public class Magazine extends Publication {
 	
 	private int id;
@@ -30,6 +39,11 @@ public class Magazine extends Publication {
 		return  detailMagazine;
 	}
 	
+	/**
+	 * Metodo que crea una lista de magazines
+	 * @return {@code Arraylist} Crea hasta 5 revistas 
+	 * 
+	 * */
 	public static ArrayList<Magazine> makeMagazineList() {
 		ArrayList<Magazine> magazines = new ArrayList();
 		String[] authors = new String[3];

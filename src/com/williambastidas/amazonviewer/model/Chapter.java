@@ -2,6 +2,10 @@ package com.williambastidas.amazonviewer.model;
 
 import java.util.ArrayList;
 
+/**
+ * Hereda de {@link Movie} 
+ * 
+ * */
 public class Chapter extends Movie {
 	
 	

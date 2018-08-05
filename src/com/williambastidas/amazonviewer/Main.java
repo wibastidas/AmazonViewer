@@ -15,6 +15,22 @@ import com.williambastidas.amazonviewer.model.Serie;
 import com.williambastidas.makereport.Report;
 import com.williambastidas.util.AmazonUtil;
 
+
+
+/**
+ * <h1>AmazonViewer</h1>
+ * AmazonViewer es un programa que permite simular la visualizacion de Movies, Series con sus respectivos Chapters,
+ * Books y Magazines. Permite generar reportes generales y con fecha del dia.
+ * <p>
+ * Existen algunas reglas como que todos los elementos pueden ser visualizados o leidos a exepcion
+ * de las Magazines, estas solo pueden ser vistas a modo de exposicion sin ser leidas 
+ * 
+ * 
+ * @author williambastidas
+ * @version 1.1
+ * @since 2018
+ * 
+ * */
 public class Main {
 
 	public static void main(String[] args) throws IOException {
@@ -24,7 +40,7 @@ public class Main {
 		//Film film = new Movie ("", "", "" , 1, (short)1999);
 		//film.view();
 		//test
-		
+ 		
 		showMenu();
 
 	}
